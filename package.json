@@ -1,0 +1,30 @@
+{
+  "name": "mern-auth",
+  "version": "1.0.0",
+  "description": "Boilerplate for auth application in mern stack",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "assets-webpack-plugin": "^3.9.10",
+    "aws-sdk": "^2.410.0",
+    "ethereumjs-tx": "^1.3.7",
+    "html-webpack-plugin": "^3.2.0",
+    "live-server": "^1.2.1",
+    "mongoose": "^5.4.16",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "sendgrid": "^5.2.3",
+    "util": "^0.11.1",
+    "web3": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  }
+}
